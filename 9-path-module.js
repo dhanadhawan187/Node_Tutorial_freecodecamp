@@ -1,0 +1,10 @@
+//Path Modules
+const path=require("path")
+const { basename } = require("path/posix")
+console.log(`My System path seperater: ${path.sep}`)
+const filepath=path.join("/content","subfolder","test.txt")
+console.log(`File Path: ${filepath}`)
+const basefilename=path.basename(filepath)
+console.log(`Base file name: ${basefilename}`)
+const absolutepath=path.resolve(__dirname,'content',"subfolder","test.txt")
+console.log(`Absolute Path: ${absolutepath}`)

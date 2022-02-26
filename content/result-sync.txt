@@ -1,0 +1,1 @@
+The New Result: Hello this is first text file, Hello this is second text file,The New appended result: Fun
